@@ -1,5 +1,5 @@
 <?php
-$valorCompra = readline("Digite o valor da compra: ");
+$valorCompra = (float) readline("Digite o valor da compra: ");
 
 if ($valorCompra >= 500) {
     $desconto = 20;
