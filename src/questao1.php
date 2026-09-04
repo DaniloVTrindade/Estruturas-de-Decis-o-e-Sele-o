@@ -1,5 +1,5 @@
 <?php
-$distancia = readline("Digite a distância da corrida em km: ");
+$distancia = (float) readline("Digite a distância da corrida em km: ");
 
 $taxaFixa = 5;
 $valorKm = 2.50;
