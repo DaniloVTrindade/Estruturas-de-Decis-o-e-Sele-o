@@ -1,5 +1,5 @@
 <?php
-$temperatura = readline("Digite a temperatura: ");
+$temperatura = (float) readline("Digite a temperatura: ");
 
 if ($temperatura < 15) {
     echo "Temperatura fria\n";
