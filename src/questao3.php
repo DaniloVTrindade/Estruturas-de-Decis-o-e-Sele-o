@@ -1,5 +1,5 @@
 <?php
-$nota = readline("Digite a nota do aluno: ");
+$nota = (float) readline("Digite a nota do aluno: ");
 
 if ($nota >= 7) {
     echo "Aluno aprovado\n";
