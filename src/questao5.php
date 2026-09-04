@@ -3,7 +3,7 @@ echo "1 - Vendas\n";
 echo "2 - Suporte\n";
 echo "3 - Financeiro\n";
 
-$opcao = readline("Escolha uma opção: ");
+$opcao = (int) readline("Escolha uma opção: ");
 
 switch ($opcao) {
     case 1:
