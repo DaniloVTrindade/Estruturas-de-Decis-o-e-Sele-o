@@ -4,7 +4,7 @@ echo "2 - Em processamento\n";
 echo "3 - Enviado\n";
 echo "4 - Entregue\n";
 
-$status = readline("Digite a opção do status: ");
+$status = (int) readline("Digite a opção do status: ");
 
 switch ($status) {
     case 1:
