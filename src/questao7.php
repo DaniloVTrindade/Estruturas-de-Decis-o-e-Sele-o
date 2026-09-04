@@ -1,5 +1,5 @@
 <?php
-$valorCompra = floatval(readline("Digite o valor da compra: "));
+$valorCompra = readline("Digite o valor da compra: ");
 
 if ($valorCompra >= 500) {
     $desconto = 20;
@@ -13,5 +13,5 @@ $valorDesconto = $valorCompra * ($desconto / 100);
 $valorFinal = $valorCompra - $valorDesconto;
 
 echo "Desconto: $desconto%\n";
-echo "Valor final: R$ " . number_format($valorFinal, 2, ",", ".") . "\n";
+echo "Valor final: R$ $valorFinal\n";
 ?>
