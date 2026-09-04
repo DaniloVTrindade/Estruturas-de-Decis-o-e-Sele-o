@@ -1,5 +1,5 @@
 <?php
-$idade = intval(readline("Digite sua idade: "));
+$idade = readline("Digite sua idade: ");
 
 if ($idade < 12) {
     echo "Classificação: criança\n";
