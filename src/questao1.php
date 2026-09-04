@@ -1,10 +1,10 @@
 <?php
-$distancia = floatval(readline("Digite a distância da corrida em km: "));
+$distancia = readline("Digite a distância da corrida em km: ");
 
 $taxaFixa = 5;
 $valorKm = 2.50;
 
 $valorCorrida = $taxaFixa + ($distancia * $valorKm);
 
-echo "Valor da corrida: R$ " . number_format($valorCorrida, 2, ",", ".") . "\n";
+echo "Valor da corrida: R$ $valorCorrida\n";
 ?>
