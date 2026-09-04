@@ -1,13 +1,13 @@
 <?php
-$numero1 = readline("Digite o primeiro número: ");
-$numero2 = readline("Digite o segundo número: ");
+$numero1 = (float) readline("Digite o primeiro número: ");
+$numero2 = (float) readline("Digite o segundo número: ");
 
 echo "1 - Soma\n";
 echo "2 - Subtração\n";
 echo "3 - Multiplicação\n";
 echo "4 - Divisão\n";
 
-$opcao = readline("Escolha uma operação: ");
+$opcao = (int) readline("Escolha uma operação: ");
 
 switch ($opcao) {
     case 1:
